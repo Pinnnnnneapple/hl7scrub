@@ -1,10 +1,5 @@
 # Changelog
 
-## Unreleased
-
-- Require Python 3.10+ and test on Python 3.10–3.14; normalize text checkouts
-  to LF for consistent example outputs across platforms.
-
 ## 0.1.0 — 2026-11-07
 
 - Added a lossless HL7 v2 model with declared delimiters, repetitions, components,
@@ -16,3 +11,8 @@
 - Added scrub, show, diff, policy and residual scan commands with CI-friendly exits.
 - Added synthetic message sequences, generated scrubbed outputs, policy and Safe
   Harbor documentation, packaging, tests and a cross-platform Python CI matrix.
+
+### Platform support and fixes before release
+
+- Require Python 3.10+ and test on Python 3.10–3.14; normalize text checkouts
+  to LF for consistent example outputs across platforms.
