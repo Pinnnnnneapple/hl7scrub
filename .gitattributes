@@ -1,3 +1,4 @@
+* text=auto eol=lf
 *.hl7 -text
 *.py text eol=lf
 *.json text eol=lf

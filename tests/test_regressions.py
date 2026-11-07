@@ -127,7 +127,7 @@ def test_committed_scrubbed_outputs_and_report_are_reproducible(tmp_path):
         actual = parse((tmp_path / source_file.name).read_bytes()).to_bytes(mllp=False)
         committed = parse((Path("examples/scrubbed") / source_file.name).read_bytes()).to_bytes(mllp=False)
         assert actual == committed, source_file.name
-    assert json.loads(report.read_text()) == json.loads(Path("examples/scrubbed/report.json").read_text())
+    assert json.loads(report.read_text(encoding="utf-8")) == json.loads(Path("examples/scrubbed/report.json").read_text(encoding="utf-8"))
 
 
 @pytest.mark.parametrize("control", ["0B", "1C", "00"])

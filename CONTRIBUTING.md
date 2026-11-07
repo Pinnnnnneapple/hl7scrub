@@ -1,6 +1,6 @@
 # Contributing
 
-Use Python 3.9 or newer. Runtime code uses only the Python standard library.
+Use Python 3.10 or newer. Runtime code uses only the Python standard library.
 
 Create a virtual environment, then install the project and test extra:
 

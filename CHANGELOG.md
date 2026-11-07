@@ -1,5 +1,10 @@
 # Changelog
 
+## Unreleased
+
+- Require Python 3.10+ and test on Python 3.10–3.14; normalize text checkouts
+  to LF for consistent example outputs across platforms.
+
 ## 0.1.0 — 2026-11-07
 
 - Added a lossless HL7 v2 model with declared delimiters, repetitions, components,

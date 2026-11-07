@@ -47,10 +47,10 @@ def test_scrub_output_report_and_scan(tmp_path, capsys):
     assert len(parse(output.read_bytes())) == 6
     assert main(["scan", str(output)]) == 0
     assert main(["scan", INPUT]) == 1
-    data = json.loads(report.read_text())
+    data = json.loads(report.read_text(encoding="utf-8"))
     assert data["messages"] == 6
-    assert "SYNTH001" not in report.read_text()
-    assert "ALICE" not in report.read_text()
+    assert "SYNTH001" not in report.read_text(encoding="utf-8")
+    assert "ALICE" not in report.read_text(encoding="utf-8")
     assert "SYNTH001" not in capsys.readouterr().out
 
 
@@ -113,7 +113,7 @@ def test_never_overwrite_original_or_report_collision(tmp_path):
 def test_output_not_written_if_later_input_bad(tmp_path):
     output = tmp_path / "out"
     bad = tmp_path / "bad"
-    bad.write_text("NOT HL7")
+    bad.write_text("NOT HL7", encoding="utf-8")
     assert main(["scrub", INPUT, str(bad), "--key", DEMO, "-o", str(output)]) == 2
     assert not output.exists()
 
@@ -191,13 +191,13 @@ def test_strict_warning_exit(tmp_path):
 
 def test_bad_custom_policy(tmp_path):
     policy = tmp_path / "bad.json"
-    policy.write_text('{"version":1,"fields":{"PID-5":{"action":"oops"}}}')
+    policy.write_text('{"version":1,"fields":{"PID-5":{"action":"oops"}}}', encoding="utf-8")
     assert main(["scrub", INPUT, "--key", DEMO, "--policy", str(policy)]) == 2
 
 
 def test_cli_custom_component_policy(tmp_path):
     policy = tmp_path / "custom.json"
-    policy.write_text(json.dumps({"version": 1, "fields": {"PID-3[*].1": {"action": "redact", "text": "TOKEN"}}}))
+    policy.write_text(json.dumps({"version": 1, "fields": {"PID-3[*].1": {"action": "redact", "text": "TOKEN"}}}), encoding="utf-8")
     output = tmp_path / "output"
     assert main(["scrub", INPUT, "--key", DEMO, "--policy", str(policy), "-o", str(output)]) == 0
     assert parse(output.read_bytes()).messages[0].get("PID-3.1") == "TOKEN"

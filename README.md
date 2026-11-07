@@ -4,7 +4,7 @@
 
 [![CI](https://github.com/Pinnnnnneapple/hl7scrub/actions/workflows/ci.yml/badge.svg)](https://github.com/Pinnnnnneapple/hl7scrub/actions/workflows/ci.yml)
 [![MIT license](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
-[![Python 3.9–3.13](https://img.shields.io/badge/python-3.9%E2%80%933.13-blue.svg)](pyproject.toml)
+[![Python 3.10–3.14](https://img.shields.io/badge/python-3.10%E2%80%933.14-blue.svg)](pyproject.toml)
 
 `hl7scrub` is a Python library and command-line toolkit for structure-aware HL7 v2 anonymisation and pseudonymisation. It has **no runtime dependencies**. Give it the same secret and patient identifiers, and an ADT admission, subsequent update, discharge, and laboratory result retain their relationships after scrubbing.
 
@@ -29,7 +29,7 @@ The bundled pools contain 200 common given names, 200 family names, 101 street n
 
 ## Install
 
-Python 3.9 or newer:
+Python 3.10 or newer:
 
 ```sh
 pip install git+https://github.com/Pinnnnnneapple/hl7scrub
@@ -259,7 +259,7 @@ ED/RP values are emptied; no OCR, image or document-content sanitizer is provide
 
 ## Development and roadmap
 
-The suite covers byte-identical parsing, custom encoding/escapes, paths, all actions, time precision and intervals, formats, cross-file determinism, narratives, providers, opaque payload removal, reports, scanning and direct `main(argv)` CLI calls. CI tests Python 3.9–3.13 on Linux, Windows and macOS and exercises every synthetic fixture through the CLI.
+The suite covers byte-identical parsing, custom encoding/escapes, paths, all actions, time precision and intervals, formats, cross-file determinism, narratives, providers, opaque payload removal, reports, scanning and direct `main(argv)` CLI calls. CI tests Python 3.10–3.14 on Linux, Windows and macOS and exercises every synthetic fixture through the CLI.
 
 Potential next releases: interface-profile validation, site-specific identity reconciliation hooks, richer multilingual narrative detection, and versioned policy migration tools. These are roadmap items, not current guarantees.
 
