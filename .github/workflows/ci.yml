@@ -1,0 +1,42 @@
+name: CI
+on: [push, pull_request]
+
+jobs:
+  test:
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ubuntu-latest, windows-latest, macos-latest]
+        python: ['3.9', '3.10', '3.11', '3.12', '3.13']
+    runs-on: ${{ matrix.os }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python }}
+      - run: python -m pip install -e ".[dev]"
+      - run: python -m pytest
+      - name: Check deterministic example generation
+        shell: python
+        run: |
+          import pathlib
+          import subprocess
+          import sys
+          paths = sorted(pathlib.Path('examples').glob('*.hl7'))
+          before = {path: path.read_bytes() for path in paths}
+          subprocess.run([sys.executable, 'examples/generate_examples.py'], check=True)
+          after = {path: path.read_bytes() for path in pathlib.Path('examples').glob('*.hl7')}
+          assert before == after, 'Regenerate and commit synthetic example inputs'
+      - name: Exercise CLI with synthetic examples
+        shell: python
+        run: |
+          import pathlib
+          import subprocess
+          import tempfile
+          with tempfile.TemporaryDirectory(prefix='hl7scrub-ci-') as directory:
+              for source in sorted(pathlib.Path('examples').glob('*.hl7')):
+                  output = pathlib.Path(directory) / source.name
+                  subprocess.run(['hl7scrub', 'scrub', str(source), '--key', 'synthetic-demo-key', '--output', str(output)], check=True)
+                  subprocess.run(['hl7scrub', 'scan', str(output)], check=True)
+                  subprocess.run(['hl7scrub', 'show', str(output)], check=True)
+                  subprocess.run(['hl7scrub', 'diff', str(source), str(output)], check=True)

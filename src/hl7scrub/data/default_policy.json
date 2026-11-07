@@ -1,0 +1,1668 @@
+{
+  "version": 1,
+  "unknown_segments": "redact",
+  "fields": {
+    "AIL-1": {
+      "action": "keep"
+    },
+    "AIL-2": {
+      "action": "keep"
+    },
+    "AIL-3": {
+      "action": "redact",
+      "identifier": "identifying_context"
+    },
+    "AIL-4": {
+      "action": "keep"
+    },
+    "AIL-6": {
+      "action": "date_shift",
+      "identifier": "date"
+    },
+    "AIL-12": {
+      "action": "keep"
+    },
+    "AIP-1": {
+      "action": "keep"
+    },
+    "AIP-2": {
+      "action": "keep"
+    },
+    "AIP-3": {
+      "action": "pseudonym",
+      "kind": "person_name",
+      "identifier": "provider"
+    },
+    "AIP-4": {
+      "action": "keep"
+    },
+    "AIP-6": {
+      "action": "date_shift",
+      "identifier": "date"
+    },
+    "AIP-12": {
+      "action": "keep"
+    },
+    "AL1-1": {
+      "action": "keep"
+    },
+    "AL1-2": {
+      "action": "keep"
+    },
+    "AL1-3": {
+      "action": "pseudonym",
+      "kind": "free_text",
+      "identifier": "free_text"
+    },
+    "AL1-4": {
+      "action": "keep"
+    },
+    "AL1-5": {
+      "action": "pseudonym",
+      "kind": "free_text",
+      "identifier": "free_text"
+    },
+    "AL1-6": {
+      "action": "date_shift",
+      "identifier": "date"
+    },
+    "DG1-1": {
+      "action": "keep"
+    },
+    "DG1-2": {
+      "action": "keep"
+    },
+    "DG1-3": {
+      "action": "keep"
+    },
+    "DG1-4": {
+      "action": "pseudonym",
+      "kind": "free_text",
+      "identifier": "free_text"
+    },
+    "DG1-5": {
+      "action": "date_shift",
+      "identifier": "date"
+    },
+    "DG1-6": {
+      "action": "keep"
+    },
+    "DG1-16": {
+      "action": "pseudonym",
+      "kind": "person_name",
+      "identifier": "provider"
+    },
+    "DG1-18": {
+      "action": "keep"
+    },
+    "DG1-19": {
+      "action": "date_shift",
+      "identifier": "date"
+    },
+    "DG1-20": {
+      "action": "hash",
+      "identifier": "linkable_identifier"
+    },
+    "EVN-1": {
+      "action": "keep"
+    },
+    "EVN-2": {
+      "action": "date_shift",
+      "identifier": "date"
+    },
+    "EVN-3": {
+      "action": "date_shift",
+      "identifier": "date"
+    },
+    "EVN-5": {
+      "action": "pseudonym",
+      "kind": "person_name",
+      "identifier": "provider"
+    },
+    "EVN-6": {
+      "action": "date_shift",
+      "identifier": "date"
+    },
+    "EVN-7": {
+      "action": "hash",
+      "identifier": "linkable_identifier"
+    },
+    "FT1-1": {
+      "action": "keep"
+    },
+    "FT1-2": {
+      "action": "hash",
+      "identifier": "linkable_identifier"
+    },
+    "FT1-3": {
+      "action": "hash",
+      "identifier": "linkable_identifier"
+    },
+    "FT1-4.1": {
+      "action": "date_shift",
+      "identifier": "date"
+    },
+    "FT1-4.2": {
+      "action": "date_shift",
+      "identifier": "date"
+    },
+    "FT1-5": {
+      "action": "date_shift",
+      "identifier": "date"
+    },
+    "FT1-6": {
+      "action": "keep"
+    },
+    "FT1-7": {
+      "action": "keep"
+    },
+    "FT1-8": {
+      "action": "pseudonym",
+      "kind": "free_text",
+      "identifier": "free_text"
+    },
+    "FT1-9": {
+      "action": "pseudonym",
+      "kind": "free_text",
+      "identifier": "free_text"
+    },
+    "FT1-16": {
+      "action": "redact",
+      "identifier": "identifying_context"
+    },
+    "FT1-20": {
+      "action": "pseudonym",
+      "kind": "person_name",
+      "identifier": "provider"
+    },
+    "FT1-21": {
+      "action": "pseudonym",
+      "kind": "person_name",
+      "identifier": "provider"
+    },
+    "FT1-23": {
+      "action": "hash",
+      "identifier": "linkable_identifier"
+    },
+    "FT1-24": {
+      "action": "pseudonym",
+      "kind": "person_name",
+      "identifier": "provider"
+    },
+    "FT1-25": {
+      "action": "keep"
+    },
+    "FT1-30": {
+      "action": "hash",
+      "identifier": "linkable_identifier"
+    },
+    "FT1-31": {
+      "action": "hash",
+      "identifier": "linkable_identifier"
+    },
+    "GT1-1": {
+      "action": "keep"
+    },
+    "GT1-2": {
+      "action": "hash",
+      "identifier": "linkable_identifier"
+    },
+    "GT1-3": {
+      "action": "pseudonym",
+      "kind": "person_name",
+      "identifier": "name"
+    },
+    "GT1-4": {
+      "action": "pseudonym",
+      "kind": "person_name",
+      "identifier": "name"
+    },
+    "GT1-5": {
+      "action": "pseudonym",
+      "kind": "street",
+      "identifier": "address"
+    },
+    "GT1-5.5": {
+      "action": "zip3",
+      "identifier": "postal_code"
+    },
+    "GT1-6": {
+      "action": "pseudonym",
+      "kind": "phone",
+      "identifier": "telephone_or_email"
+    },
+    "GT1-7": {
+      "action": "pseudonym",
+      "kind": "phone",
+      "identifier": "telephone_or_email"
+    },
+    "GT1-8": {
+      "actions": [
+        {
+          "action": "date_shift"
+        },
+        {
+          "action": "age_cap"
+        }
+      ],
+      "identifier": "date_of_birth"
+    },
+    "GT1-9": {
+      "action": "keep"
+    },
+    "GT1-10": {
+      "action": "keep"
+    },
+    "GT1-11": {
+      "action": "keep"
+    },
+    "GT1-12": {
+      "action": "pseudonym",
+      "kind": "ssn",
+      "identifier": "social_security_number"
+    },
+    "GT1-13": {
+      "action": "date_shift",
+      "identifier": "date"
+    },
+    "GT1-14": {
+      "action": "date_shift",
+      "identifier": "date"
+    },
+    "GT1-16": {
+      "action": "hash",
+      "identifier": "linkable_identifier"
+    },
+    "GT1-17": {
+      "action": "pseudonym",
+      "kind": "street",
+      "identifier": "address"
+    },
+    "GT1-17.5": {
+      "action": "zip3",
+      "identifier": "postal_code"
+    },
+    "GT1-18": {
+      "action": "pseudonym",
+      "kind": "phone",
+      "identifier": "telephone_or_email"
+    },
+    "GT1-19": {
+      "action": "hash",
+      "identifier": "linkable_identifier"
+    },
+    "GT1-21": {
+      "action": "hash",
+      "identifier": "linkable_identifier"
+    },
+    "GT1-24": {
+      "action": "date_shift",
+      "identifier": "date"
+    },
+    "GT1-29": {
+      "action": "hash",
+      "identifier": "linkable_identifier"
+    },
+    "GT1-31": {
+      "action": "date_shift",
+      "identifier": "date"
+    },
+    "GT1-32": {
+      "action": "date_shift",
+      "identifier": "date"
+    },
+    "GT1-35": {
+      "action": "keep"
+    },
+    "GT1-42": {
+      "action": "pseudonym",
+      "kind": "person_name",
+      "identifier": "name"
+    },
+    "GT1-44": {
+      "action": "keep"
+    },
+    "GT1-45": {
+      "action": "pseudonym",
+      "kind": "person_name",
+      "identifier": "name"
+    },
+    "GT1-46": {
+      "action": "pseudonym",
+      "kind": "phone",
+      "identifier": "phone"
+    },
+    "GT1-47": {
+      "action": "keep"
+    },
+    "GT1-49": {
+      "action": "redact",
+      "identifier": "identifying_context"
+    },
+    "GT1-51": {
+      "action": "hash",
+      "identifier": "linkable_identifier"
+    },
+    "GT1-56": {
+      "action": "redact",
+      "identifier": "identifying_context"
+    },
+    "GT1-57": {
+      "action": "redact",
+      "identifier": "identifying_context"
+    },
+    "IN1-1": {
+      "action": "keep"
+    },
+    "IN1-2": {
+      "action": "keep"
+    },
+    "IN1-3": {
+      "action": "hash",
+      "identifier": "linkable_identifier"
+    },
+    "IN1-4": {
+      "action": "hash",
+      "identifier": "linkable_identifier"
+    },
+    "IN1-5": {
+      "action": "pseudonym",
+      "kind": "street",
+      "identifier": "address"
+    },
+    "IN1-5.5": {
+      "action": "zip3",
+      "identifier": "postal_code"
+    },
+    "IN1-6": {
+      "action": "pseudonym",
+      "kind": "person_name",
+      "identifier": "name"
+    },
+    "IN1-7": {
+      "action": "pseudonym",
+      "kind": "phone",
+      "identifier": "telephone_or_email"
+    },
+    "IN1-8": {
+      "action": "hash",
+      "identifier": "linkable_identifier"
+    },
+    "IN1-9": {
+      "action": "hash",
+      "identifier": "linkable_identifier"
+    },
+    "IN1-10": {
+      "action": "hash",
+      "identifier": "linkable_identifier"
+    },
+    "IN1-11": {
+      "action": "hash",
+      "identifier": "linkable_identifier"
+    },
+    "IN1-12": {
+      "action": "date_shift",
+      "identifier": "date"
+    },
+    "IN1-13": {
+      "action": "date_shift",
+      "identifier": "date"
+    },
+    "IN1-14": {
+      "action": "redact",
+      "identifier": "identifying_context"
+    },
+    "IN1-15": {
+      "action": "keep"
+    },
+    "IN1-16": {
+      "action": "pseudonym",
+      "kind": "person_name",
+      "identifier": "name"
+    },
+    "IN1-17": {
+      "action": "keep"
+    },
+    "IN1-18": {
+      "actions": [
+        {
+          "action": "date_shift"
+        },
+        {
+          "action": "age_cap"
+        }
+      ],
+      "identifier": "date_of_birth"
+    },
+    "IN1-19": {
+      "action": "pseudonym",
+      "kind": "street",
+      "identifier": "address"
+    },
+    "IN1-19.5": {
+      "action": "zip3",
+      "identifier": "postal_code"
+    },
+    "IN1-24": {
+      "action": "date_shift",
+      "identifier": "date"
+    },
+    "IN1-26": {
+      "action": "date_shift",
+      "identifier": "date"
+    },
+    "IN1-28": {
+      "action": "hash",
+      "identifier": "linkable_identifier"
+    },
+    "IN1-29": {
+      "action": "date_shift",
+      "identifier": "date"
+    },
+    "IN1-30": {
+      "action": "pseudonym",
+      "kind": "person_name",
+      "identifier": "provider"
+    },
+    "IN1-35": {
+      "action": "keep"
+    },
+    "IN1-36": {
+      "action": "hash",
+      "identifier": "linkable_identifier"
+    },
+    "IN1-44": {
+      "action": "pseudonym",
+      "kind": "street",
+      "identifier": "address"
+    },
+    "IN1-44.5": {
+      "action": "zip3",
+      "identifier": "postal_code"
+    },
+    "IN1-46": {
+      "action": "hash",
+      "identifier": "linkable_identifier"
+    },
+    "IN1-49": {
+      "action": "hash",
+      "identifier": "linkable_identifier"
+    },
+    "IN1-51": {
+      "action": "date_shift",
+      "identifier": "date"
+    },
+    "IN2-1": {
+      "action": "hash",
+      "identifier": "linkable_identifier"
+    },
+    "IN2-2": {
+      "action": "pseudonym",
+      "kind": "ssn",
+      "identifier": "social_security_number"
+    },
+    "IN2-3": {
+      "action": "hash",
+      "identifier": "linkable_identifier"
+    },
+    "IN2-6": {
+      "action": "hash",
+      "identifier": "linkable_identifier"
+    },
+    "IN2-7": {
+      "action": "pseudonym",
+      "kind": "person_name",
+      "identifier": "name"
+    },
+    "IN2-8": {
+      "action": "hash",
+      "identifier": "linkable_identifier"
+    },
+    "IN2-9": {
+      "action": "pseudonym",
+      "kind": "person_name",
+      "identifier": "name"
+    },
+    "IN2-10": {
+      "action": "hash",
+      "identifier": "linkable_identifier"
+    },
+    "IN2-12": {
+      "action": "hash",
+      "identifier": "linkable_identifier"
+    },
+    "IN2-13": {
+      "action": "redact",
+      "identifier": "identifying_context"
+    },
+    "IN2-17": {
+      "action": "date_shift",
+      "identifier": "date"
+    },
+    "IN2-22": {
+      "action": "pseudonym",
+      "kind": "person_name",
+      "identifier": "name"
+    },
+    "IN2-25": {
+      "action": "hash",
+      "identifier": "linkable_identifier"
+    },
+    "IN2-26": {
+      "action": "hash",
+      "identifier": "linkable_identifier"
+    },
+    "IN2-40": {
+      "action": "pseudonym",
+      "kind": "person_name",
+      "identifier": "name"
+    },
+    "IN2-44": {
+      "action": "date_shift",
+      "identifier": "date"
+    },
+    "IN2-45": {
+      "action": "date_shift",
+      "identifier": "date"
+    },
+    "IN2-46": {
+      "action": "redact",
+      "identifier": "identifying_context"
+    },
+    "IN2-49": {
+      "action": "pseudonym",
+      "kind": "person_name",
+      "identifier": "name"
+    },
+    "IN2-50": {
+      "action": "pseudonym",
+      "kind": "phone",
+      "identifier": "telephone_or_email"
+    },
+    "IN2-52": {
+      "action": "pseudonym",
+      "kind": "person_name",
+      "identifier": "name"
+    },
+    "IN2-53": {
+      "action": "pseudonym",
+      "kind": "phone",
+      "identifier": "telephone_or_email"
+    },
+    "IN2-55": {
+      "action": "date_shift",
+      "identifier": "date"
+    },
+    "IN2-56": {
+      "action": "date_shift",
+      "identifier": "date"
+    },
+    "IN2-58": {
+      "action": "pseudonym",
+      "kind": "phone",
+      "identifier": "telephone_or_email"
+    },
+    "IN2-61": {
+      "action": "hash",
+      "identifier": "linkable_identifier"
+    },
+    "IN2-63": {
+      "action": "pseudonym",
+      "kind": "phone",
+      "identifier": "telephone_or_email"
+    },
+    "IN2-64": {
+      "action": "pseudonym",
+      "kind": "phone",
+      "identifier": "telephone_or_email"
+    },
+    "IN2-69": {
+      "action": "hash",
+      "identifier": "linkable_identifier"
+    },
+    "IN2-70": {
+      "action": "hash",
+      "identifier": "linkable_identifier"
+    },
+    "MSH-1": {
+      "action": "keep"
+    },
+    "MSH-2": {
+      "action": "keep"
+    },
+    "MSH-3": {
+      "action": "keep"
+    },
+    "MSH-4": {
+      "action": "hash",
+      "identifier": "linkable_identifier"
+    },
+    "MSH-5": {
+      "action": "keep"
+    },
+    "MSH-6": {
+      "action": "hash",
+      "identifier": "linkable_identifier"
+    },
+    "MSH-7": {
+      "action": "date_shift",
+      "identifier": "date"
+    },
+    "MSH-8": {
+      "action": "remove",
+      "identifier": "identifying_context"
+    },
+    "MSH-9": {
+      "action": "keep"
+    },
+    "MSH-10": {
+      "action": "hash",
+      "identifier": "linkable_identifier"
+    },
+    "MSH-11": {
+      "action": "keep"
+    },
+    "MSH-12": {
+      "action": "keep"
+    },
+    "MSH-21": {
+      "action": "keep"
+    },
+    "NK1-1": {
+      "action": "keep"
+    },
+    "NK1-2": {
+      "action": "pseudonym",
+      "kind": "person_name",
+      "identifier": "name"
+    },
+    "NK1-3": {
+      "action": "keep"
+    },
+    "NK1-4": {
+      "action": "pseudonym",
+      "kind": "street",
+      "identifier": "address"
+    },
+    "NK1-4.5": {
+      "action": "zip3",
+      "identifier": "postal_code"
+    },
+    "NK1-5": {
+      "action": "pseudonym",
+      "kind": "phone",
+      "identifier": "telephone_or_email"
+    },
+    "NK1-6": {
+      "action": "pseudonym",
+      "kind": "phone",
+      "identifier": "telephone_or_email"
+    },
+    "NK1-7": {
+      "action": "keep"
+    },
+    "NK1-8": {
+      "action": "date_shift",
+      "identifier": "date"
+    },
+    "NK1-9": {
+      "action": "date_shift",
+      "identifier": "date"
+    },
+    "NK1-10": {
+      "action": "redact",
+      "identifier": "identifying_context"
+    },
+    "NK1-12": {
+      "action": "hash",
+      "identifier": "linkable_identifier"
+    },
+    "NK1-13": {
+      "action": "hash",
+      "identifier": "linkable_identifier"
+    },
+    "NK1-16": {
+      "actions": [
+        {
+          "action": "date_shift"
+        },
+        {
+          "action": "age_cap"
+        }
+      ],
+      "identifier": "date_of_birth"
+    },
+    "NK1-26": {
+      "action": "pseudonym",
+      "kind": "person_name",
+      "identifier": "name"
+    },
+    "NK1-30": {
+      "action": "pseudonym",
+      "kind": "person_name",
+      "identifier": "name"
+    },
+    "NK1-31": {
+      "action": "pseudonym",
+      "kind": "phone",
+      "identifier": "telephone_or_email"
+    },
+    "NK1-32": {
+      "action": "pseudonym",
+      "kind": "street",
+      "identifier": "address"
+    },
+    "NK1-32.5": {
+      "action": "zip3",
+      "identifier": "postal_code"
+    },
+    "NK1-33": {
+      "action": "hash",
+      "identifier": "linkable_identifier"
+    },
+    "NK1-34": {
+      "action": "keep"
+    },
+    "NK1-35": {
+      "action": "keep"
+    },
+    "NK1-37": {
+      "action": "pseudonym",
+      "kind": "ssn",
+      "identifier": "social_security_number"
+    },
+    "NK1-38": {
+      "action": "redact",
+      "identifier": "identifying_context"
+    },
+    "NK1-39": {
+      "action": "redact",
+      "identifier": "identifying_context"
+    },
+    "NTE-1": {
+      "action": "keep"
+    },
+    "NTE-2": {
+      "action": "keep"
+    },
+    "NTE-3": {
+      "action": "pseudonym",
+      "kind": "free_text",
+      "identifier": "free_text"
+    },
+    "NTE-4": {
+      "action": "keep"
+    },
+    "OBR-1": {
+      "action": "keep"
+    },
+    "OBR-2": {
+      "action": "hash",
+      "identifier": "linkable_identifier"
+    },
+    "OBR-3": {
+      "action": "hash",
+      "identifier": "linkable_identifier"
+    },
+    "OBR-4": {
+      "action": "keep"
+    },
+    "OBR-6": {
+      "action": "date_shift",
+      "identifier": "date"
+    },
+    "OBR-7": {
+      "action": "date_shift",
+      "identifier": "date"
+    },
+    "OBR-8": {
+      "action": "date_shift",
+      "identifier": "date"
+    },
+    "OBR-10": {
+      "action": "pseudonym",
+      "kind": "person_name",
+      "identifier": "provider"
+    },
+    "OBR-13": {
+      "action": "pseudonym",
+      "kind": "free_text",
+      "identifier": "free_text"
+    },
+    "OBR-14": {
+      "action": "date_shift",
+      "identifier": "date"
+    },
+    "OBR-16": {
+      "action": "pseudonym",
+      "kind": "person_name",
+      "identifier": "provider"
+    },
+    "OBR-17": {
+      "action": "pseudonym",
+      "kind": "phone",
+      "identifier": "telephone_or_email"
+    },
+    "OBR-18": {
+      "action": "redact",
+      "identifier": "identifying_context"
+    },
+    "OBR-19": {
+      "action": "redact",
+      "identifier": "identifying_context"
+    },
+    "OBR-20": {
+      "action": "redact",
+      "identifier": "identifying_context"
+    },
+    "OBR-21": {
+      "action": "redact",
+      "identifier": "identifying_context"
+    },
+    "OBR-22": {
+      "action": "date_shift",
+      "identifier": "date"
+    },
+    "OBR-24": {
+      "action": "keep"
+    },
+    "OBR-25": {
+      "action": "keep"
+    },
+    "OBR-27": {
+      "action": "keep"
+    },
+    "OBR-27.4": {
+      "action": "date_shift",
+      "identifier": "date"
+    },
+    "OBR-27.5": {
+      "action": "date_shift",
+      "identifier": "date"
+    },
+    "OBR-28": {
+      "action": "pseudonym",
+      "kind": "person_name",
+      "identifier": "provider"
+    },
+    "OBR-29": {
+      "action": "hash",
+      "identifier": "linkable_identifier"
+    },
+    "OBR-31": {
+      "action": "pseudonym",
+      "kind": "free_text",
+      "identifier": "free_text"
+    },
+    "OBR-32": {
+      "action": "pseudonym",
+      "kind": "person_name",
+      "identifier": "provider"
+    },
+    "OBR-33": {
+      "action": "pseudonym",
+      "kind": "person_name",
+      "identifier": "provider"
+    },
+    "OBR-34": {
+      "action": "pseudonym",
+      "kind": "person_name",
+      "identifier": "provider"
+    },
+    "OBR-35": {
+      "action": "pseudonym",
+      "kind": "person_name",
+      "identifier": "provider"
+    },
+    "OBR-36": {
+      "action": "date_shift",
+      "identifier": "date"
+    },
+    "OBR-39": {
+      "action": "pseudonym",
+      "kind": "free_text",
+      "identifier": "free_text"
+    },
+    "OBR-43": {
+      "action": "pseudonym",
+      "kind": "free_text",
+      "identifier": "free_text"
+    },
+    "OBX-1": {
+      "action": "keep"
+    },
+    "OBX-2": {
+      "action": "keep"
+    },
+    "OBX-3": {
+      "action": "keep"
+    },
+    "OBX-4": {
+      "action": "keep"
+    },
+    "OBX-5": {
+      "action": "pseudonym",
+      "kind": "free_text",
+      "identifier": "free_text"
+    },
+    "OBX-6": {
+      "action": "keep"
+    },
+    "OBX-7": {
+      "action": "keep"
+    },
+    "OBX-8": {
+      "action": "keep"
+    },
+    "OBX-11": {
+      "action": "keep"
+    },
+    "OBX-12": {
+      "action": "date_shift",
+      "identifier": "date"
+    },
+    "OBX-13": {
+      "action": "redact",
+      "identifier": "identifying_context"
+    },
+    "OBX-14": {
+      "action": "date_shift",
+      "identifier": "date"
+    },
+    "OBX-15": {
+      "action": "hash",
+      "identifier": "linkable_identifier"
+    },
+    "OBX-16": {
+      "action": "pseudonym",
+      "kind": "person_name",
+      "identifier": "provider"
+    },
+    "OBX-18": {
+      "action": "hash",
+      "identifier": "linkable_identifier"
+    },
+    "OBX-19": {
+      "action": "date_shift",
+      "identifier": "date"
+    },
+    "ORC-1": {
+      "action": "keep"
+    },
+    "ORC-2": {
+      "action": "hash",
+      "identifier": "linkable_identifier"
+    },
+    "ORC-3": {
+      "action": "hash",
+      "identifier": "linkable_identifier"
+    },
+    "ORC-4": {
+      "action": "hash",
+      "identifier": "linkable_identifier"
+    },
+    "ORC-5": {
+      "action": "keep"
+    },
+    "ORC-7": {
+      "action": "keep"
+    },
+    "ORC-7.4": {
+      "action": "date_shift",
+      "identifier": "date"
+    },
+    "ORC-7.5": {
+      "action": "date_shift",
+      "identifier": "date"
+    },
+    "ORC-8": {
+      "action": "hash",
+      "identifier": "linkable_identifier"
+    },
+    "ORC-9": {
+      "action": "date_shift",
+      "identifier": "date"
+    },
+    "ORC-10": {
+      "action": "pseudonym",
+      "kind": "person_name",
+      "identifier": "provider"
+    },
+    "ORC-11": {
+      "action": "pseudonym",
+      "kind": "person_name",
+      "identifier": "provider"
+    },
+    "ORC-12": {
+      "action": "pseudonym",
+      "kind": "person_name",
+      "identifier": "provider"
+    },
+    "ORC-13": {
+      "action": "redact",
+      "identifier": "identifying_context"
+    },
+    "ORC-14": {
+      "action": "pseudonym",
+      "kind": "phone",
+      "identifier": "telephone_or_email"
+    },
+    "ORC-15": {
+      "action": "date_shift",
+      "identifier": "date"
+    },
+    "ORC-16": {
+      "action": "pseudonym",
+      "kind": "free_text",
+      "identifier": "free_text"
+    },
+    "ORC-17": {
+      "action": "hash",
+      "identifier": "linkable_identifier"
+    },
+    "ORC-18": {
+      "action": "hash",
+      "identifier": "linkable_identifier"
+    },
+    "ORC-19": {
+      "action": "pseudonym",
+      "kind": "person_name",
+      "identifier": "provider"
+    },
+    "ORC-21": {
+      "action": "hash",
+      "identifier": "linkable_identifier"
+    },
+    "ORC-22": {
+      "action": "pseudonym",
+      "kind": "street",
+      "identifier": "address"
+    },
+    "ORC-22.5": {
+      "action": "zip3",
+      "identifier": "postal_code"
+    },
+    "ORC-23": {
+      "action": "pseudonym",
+      "kind": "phone",
+      "identifier": "telephone_or_email"
+    },
+    "ORC-24": {
+      "action": "pseudonym",
+      "kind": "street",
+      "identifier": "address"
+    },
+    "ORC-24.5": {
+      "action": "zip3",
+      "identifier": "postal_code"
+    },
+    "PD1-1": {
+      "action": "keep"
+    },
+    "PD1-2": {
+      "action": "keep"
+    },
+    "PD1-3": {
+      "action": "hash",
+      "identifier": "linkable_identifier"
+    },
+    "PD1-4": {
+      "action": "pseudonym",
+      "kind": "person_name",
+      "identifier": "provider"
+    },
+    "PD1-9": {
+      "action": "keep"
+    },
+    "PD1-10": {
+      "action": "hash",
+      "identifier": "linkable_identifier"
+    },
+    "PD1-13": {
+      "action": "date_shift",
+      "identifier": "date"
+    },
+    "PD1-17": {
+      "action": "date_shift",
+      "identifier": "date"
+    },
+    "PD1-18": {
+      "action": "date_shift",
+      "identifier": "date"
+    },
+    "PID-1": {
+      "action": "keep"
+    },
+    "PID-2": {
+      "action": "pseudonym",
+      "kind": "mrn",
+      "identifier": "medical_record_number"
+    },
+    "PID-3": {
+      "action": "pseudonym",
+      "kind": "mrn",
+      "identifier": "medical_record_number"
+    },
+    "PID-4": {
+      "action": "pseudonym",
+      "kind": "mrn",
+      "identifier": "medical_record_number"
+    },
+    "PID-5": {
+      "action": "pseudonym",
+      "kind": "person_name",
+      "identifier": "name"
+    },
+    "PID-6": {
+      "action": "pseudonym",
+      "kind": "person_name",
+      "identifier": "name"
+    },
+    "PID-7": {
+      "actions": [
+        {
+          "action": "date_shift"
+        },
+        {
+          "action": "age_cap"
+        }
+      ],
+      "identifier": "date_of_birth"
+    },
+    "PID-8": {
+      "action": "keep"
+    },
+    "PID-9": {
+      "action": "pseudonym",
+      "kind": "person_name",
+      "identifier": "name"
+    },
+    "PID-10": {
+      "action": "keep"
+    },
+    "PID-11": {
+      "action": "pseudonym",
+      "kind": "street",
+      "identifier": "address"
+    },
+    "PID-11.5": {
+      "action": "zip3",
+      "identifier": "postal_code"
+    },
+    "PID-12": {
+      "action": "redact",
+      "identifier": "identifying_context"
+    },
+    "PID-13": {
+      "action": "pseudonym",
+      "kind": "phone",
+      "identifier": "telephone_or_email"
+    },
+    "PID-14": {
+      "action": "pseudonym",
+      "kind": "phone",
+      "identifier": "telephone_or_email"
+    },
+    "PID-15": {
+      "action": "keep"
+    },
+    "PID-16": {
+      "action": "keep"
+    },
+    "PID-17": {
+      "action": "keep"
+    },
+    "PID-18": {
+      "action": "hash",
+      "identifier": "linkable_identifier"
+    },
+    "PID-19": {
+      "action": "pseudonym",
+      "kind": "ssn",
+      "identifier": "social_security_number"
+    },
+    "PID-20": {
+      "action": "hash",
+      "identifier": "linkable_identifier"
+    },
+    "PID-21": {
+      "action": "hash",
+      "identifier": "linkable_identifier"
+    },
+    "PID-22": {
+      "action": "keep"
+    },
+    "PID-23": {
+      "action": "redact",
+      "identifier": "identifying_context"
+    },
+    "PID-24": {
+      "action": "keep"
+    },
+    "PID-25": {
+      "action": "keep"
+    },
+    "PID-26": {
+      "action": "keep"
+    },
+    "PID-27": {
+      "action": "keep"
+    },
+    "PID-28": {
+      "action": "keep"
+    },
+    "PID-29": {
+      "action": "date_shift",
+      "identifier": "date"
+    },
+    "PID-30": {
+      "action": "keep"
+    },
+    "PID-33": {
+      "action": "date_shift",
+      "identifier": "date"
+    },
+    "PID-34": {
+      "action": "hash",
+      "identifier": "linkable_identifier"
+    },
+    "PV1-1": {
+      "action": "keep"
+    },
+    "PV1-2": {
+      "action": "keep"
+    },
+    "PV1-3": {
+      "action": "redact",
+      "identifier": "identifying_context"
+    },
+    "PV1-4": {
+      "action": "keep"
+    },
+    "PV1-5": {
+      "action": "hash",
+      "identifier": "linkable_identifier"
+    },
+    "PV1-6": {
+      "action": "redact",
+      "identifier": "identifying_context"
+    },
+    "PV1-7": {
+      "action": "pseudonym",
+      "kind": "person_name",
+      "identifier": "provider"
+    },
+    "PV1-8": {
+      "action": "pseudonym",
+      "kind": "person_name",
+      "identifier": "provider"
+    },
+    "PV1-9": {
+      "action": "pseudonym",
+      "kind": "person_name",
+      "identifier": "provider"
+    },
+    "PV1-10": {
+      "action": "keep"
+    },
+    "PV1-11": {
+      "action": "redact",
+      "identifier": "identifying_context"
+    },
+    "PV1-16": {
+      "action": "redact",
+      "identifier": "identifying_context"
+    },
+    "PV1-17": {
+      "action": "pseudonym",
+      "kind": "person_name",
+      "identifier": "provider"
+    },
+    "PV1-19": {
+      "action": "hash",
+      "identifier": "linkable_identifier"
+    },
+    "PV1-25": {
+      "action": "date_shift",
+      "identifier": "date"
+    },
+    "PV1-30": {
+      "action": "date_shift",
+      "identifier": "date"
+    },
+    "PV1-35": {
+      "action": "date_shift",
+      "identifier": "date"
+    },
+    "PV1-37": {
+      "action": "redact",
+      "identifier": "identifying_context"
+    },
+    "PV1-39": {
+      "action": "hash",
+      "identifier": "linkable_identifier"
+    },
+    "PV1-40": {
+      "action": "keep"
+    },
+    "PV1-42": {
+      "action": "redact",
+      "identifier": "identifying_context"
+    },
+    "PV1-43": {
+      "action": "redact",
+      "identifier": "identifying_context"
+    },
+    "PV1-44": {
+      "action": "date_shift",
+      "identifier": "date"
+    },
+    "PV1-45": {
+      "action": "date_shift",
+      "identifier": "date"
+    },
+    "PV1-50": {
+      "action": "hash",
+      "identifier": "linkable_identifier"
+    },
+    "PV1-52": {
+      "action": "pseudonym",
+      "kind": "person_name",
+      "identifier": "provider"
+    },
+    "PV2-1": {
+      "action": "redact",
+      "identifier": "identifying_context"
+    },
+    "PV2-3": {
+      "action": "pseudonym",
+      "kind": "free_text",
+      "identifier": "free_text"
+    },
+    "PV2-6": {
+      "action": "redact",
+      "identifier": "identifying_context"
+    },
+    "PV2-8": {
+      "action": "date_shift",
+      "identifier": "date"
+    },
+    "PV2-9": {
+      "action": "date_shift",
+      "identifier": "date"
+    },
+    "PV2-12": {
+      "action": "pseudonym",
+      "kind": "free_text",
+      "identifier": "free_text"
+    },
+    "PV2-13": {
+      "action": "pseudonym",
+      "kind": "person_name",
+      "identifier": "provider"
+    },
+    "PV2-14": {
+      "action": "date_shift",
+      "identifier": "date"
+    },
+    "PV2-16": {
+      "action": "keep"
+    },
+    "PV2-17": {
+      "action": "date_shift",
+      "identifier": "date"
+    },
+    "PV2-21": {
+      "action": "keep"
+    },
+    "PV2-23": {
+      "action": "hash",
+      "identifier": "linkable_identifier"
+    },
+    "PV2-24": {
+      "action": "keep"
+    },
+    "PV2-26": {
+      "action": "date_shift",
+      "identifier": "date"
+    },
+    "PV2-28": {
+      "action": "date_shift",
+      "identifier": "date"
+    },
+    "PV2-29": {
+      "action": "date_shift",
+      "identifier": "date"
+    },
+    "PV2-33": {
+      "action": "date_shift",
+      "identifier": "date"
+    },
+    "PV2-46": {
+      "action": "date_shift",
+      "identifier": "date"
+    },
+    "PV2-47": {
+      "action": "date_shift",
+      "identifier": "date"
+    },
+    "PV2-48": {
+      "action": "date_shift",
+      "identifier": "date"
+    },
+    "SCH-1": {
+      "action": "hash",
+      "identifier": "linkable_identifier"
+    },
+    "SCH-2": {
+      "action": "hash",
+      "identifier": "linkable_identifier"
+    },
+    "SCH-3": {
+      "action": "keep"
+    },
+    "SCH-4": {
+      "action": "hash",
+      "identifier": "linkable_identifier"
+    },
+    "SCH-6": {
+      "action": "pseudonym",
+      "kind": "free_text",
+      "identifier": "free_text"
+    },
+    "SCH-7": {
+      "action": "pseudonym",
+      "kind": "free_text",
+      "identifier": "free_text"
+    },
+    "SCH-8": {
+      "action": "keep"
+    },
+    "SCH-11": {
+      "action": "keep"
+    },
+    "SCH-11.4": {
+      "action": "date_shift",
+      "identifier": "date"
+    },
+    "SCH-11.5": {
+      "action": "date_shift",
+      "identifier": "date"
+    },
+    "SCH-12": {
+      "action": "pseudonym",
+      "kind": "person_name",
+      "identifier": "provider"
+    },
+    "SCH-13": {
+      "action": "pseudonym",
+      "kind": "phone",
+      "identifier": "telephone_or_email"
+    },
+    "SCH-14": {
+      "action": "pseudonym",
+      "kind": "street",
+      "identifier": "address"
+    },
+    "SCH-14.5": {
+      "action": "zip3",
+      "identifier": "postal_code"
+    },
+    "SCH-15": {
+      "action": "redact",
+      "identifier": "identifying_context"
+    },
+    "SCH-16": {
+      "action": "pseudonym",
+      "kind": "person_name",
+      "identifier": "provider"
+    },
+    "SCH-17": {
+      "action": "pseudonym",
+      "kind": "phone",
+      "identifier": "telephone_or_email"
+    },
+    "SCH-18": {
+      "action": "pseudonym",
+      "kind": "street",
+      "identifier": "address"
+    },
+    "SCH-18.5": {
+      "action": "zip3",
+      "identifier": "postal_code"
+    },
+    "SCH-19": {
+      "action": "redact",
+      "identifier": "identifying_context"
+    },
+    "SCH-20": {
+      "action": "pseudonym",
+      "kind": "person_name",
+      "identifier": "provider"
+    },
+    "SCH-21": {
+      "action": "pseudonym",
+      "kind": "phone",
+      "identifier": "telephone_or_email"
+    },
+    "SCH-22": {
+      "action": "redact",
+      "identifier": "identifying_context"
+    },
+    "SCH-23": {
+      "action": "hash",
+      "identifier": "linkable_identifier"
+    },
+    "SCH-24": {
+      "action": "hash",
+      "identifier": "linkable_identifier"
+    },
+    "SCH-25": {
+      "action": "keep"
+    },
+    "SCH-26": {
+      "action": "hash",
+      "identifier": "linkable_identifier"
+    },
+    "SCH-27": {
+      "action": "hash",
+      "identifier": "linkable_identifier"
+    },
+    "TXA-1": {
+      "action": "keep"
+    },
+    "TXA-2": {
+      "action": "keep"
+    },
+    "TXA-3": {
+      "action": "keep"
+    },
+    "TXA-4": {
+      "action": "date_shift",
+      "identifier": "date"
+    },
+    "TXA-5": {
+      "action": "pseudonym",
+      "kind": "person_name",
+      "identifier": "provider"
+    },
+    "TXA-6": {
+      "action": "date_shift",
+      "identifier": "date"
+    },
+    "TXA-7": {
+      "action": "date_shift",
+      "identifier": "date"
+    },
+    "TXA-8": {
+      "action": "date_shift",
+      "identifier": "date"
+    },
+    "TXA-9": {
+      "action": "pseudonym",
+      "kind": "person_name",
+      "identifier": "provider"
+    },
+    "TXA-10": {
+      "action": "pseudonym",
+      "kind": "person_name",
+      "identifier": "provider"
+    },
+    "TXA-11": {
+      "action": "pseudonym",
+      "kind": "person_name",
+      "identifier": "provider"
+    },
+    "TXA-12": {
+      "action": "hash",
+      "identifier": "linkable_identifier"
+    },
+    "TXA-13": {
+      "action": "hash",
+      "identifier": "linkable_identifier"
+    },
+    "TXA-14": {
+      "action": "hash",
+      "identifier": "linkable_identifier"
+    },
+    "TXA-15": {
+      "action": "hash",
+      "identifier": "linkable_identifier"
+    },
+    "TXA-16": {
+      "action": "hash",
+      "identifier": "linkable_identifier"
+    },
+    "TXA-17": {
+      "action": "keep"
+    },
+    "TXA-18": {
+      "action": "keep"
+    },
+    "TXA-19": {
+      "action": "keep"
+    },
+    "TXA-20": {
+      "action": "keep"
+    },
+    "TXA-21": {
+      "action": "pseudonym",
+      "kind": "free_text",
+      "identifier": "free_text"
+    },
+    "TXA-22": {
+      "action": "pseudonym",
+      "kind": "person_name",
+      "identifier": "provider"
+    },
+    "TXA-22.15": {
+      "action": "date_shift",
+      "identifier": "date"
+    },
+    "TXA-23": {
+      "action": "pseudonym",
+      "kind": "person_name",
+      "identifier": "provider"
+    }
+  }
+}

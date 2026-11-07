@@ -1,0 +1,408 @@
+{
+  "fields": {
+    "AIL-1": {
+      "keep": 1
+    },
+    "AIL-3": {
+      "redact": 1
+    },
+    "AIL-4": {
+      "keep": 1
+    },
+    "AIL-6": {
+      "date_shift": 1
+    },
+    "AIP-1": {
+      "keep": 1
+    },
+    "AIP-3": {
+      "pseudonym": 1
+    },
+    "AIP-4": {
+      "keep": 1
+    },
+    "AIP-6": {
+      "date_shift": 1
+    },
+    "BHS-3": {
+      "remove": 1
+    },
+    "BHS-4": {
+      "remove": 1
+    },
+    "BHS-5": {
+      "remove": 1
+    },
+    "BHS-6": {
+      "remove": 1
+    },
+    "BHS-7": {
+      "generalize_year": 1
+    },
+    "EVN-1": {
+      "keep": 8
+    },
+    "EVN-2": {
+      "date_shift": 8
+    },
+    "EVN-5": {
+      "pseudonym": 8
+    },
+    "FHS-3": {
+      "remove": 1
+    },
+    "FHS-4": {
+      "remove": 1
+    },
+    "FHS-5": {
+      "remove": 1
+    },
+    "FHS-6": {
+      "remove": 1
+    },
+    "FHS-7": {
+      "generalize_year": 1
+    },
+    "FT1-1": {
+      "keep": 1
+    },
+    "FT1-2": {
+      "hash": 1
+    },
+    "FT1-20": {
+      "pseudonym": 1
+    },
+    "FT1-4.1": {
+      "date_shift": 1
+    },
+    "FT1-6": {
+      "keep": 1
+    },
+    "FT1-7": {
+      "keep": 1
+    },
+    "GT1-1": {
+      "keep": 8
+    },
+    "GT1-12": {
+      "pseudonym": 8
+    },
+    "GT1-2": {
+      "hash": 8
+    },
+    "GT1-3": {
+      "pseudonym": 8
+    },
+    "GT1-5": {
+      "pseudonym": 8
+    },
+    "GT1-5.5": {
+      "zip3": 8
+    },
+    "GT1-6": {
+      "pseudonym": 8
+    },
+    "GT1-8": {
+      "age_cap": 8,
+      "date_shift": 8
+    },
+    "IN1-1": {
+      "keep": 8
+    },
+    "IN1-16": {
+      "pseudonym": 8
+    },
+    "IN1-18": {
+      "age_cap": 8,
+      "date_shift": 8
+    },
+    "IN1-19": {
+      "pseudonym": 8
+    },
+    "IN1-19.5": {
+      "zip3": 8
+    },
+    "IN1-2": {
+      "keep": 8
+    },
+    "IN1-3": {
+      "hash": 8
+    },
+    "IN1-36": {
+      "hash": 8
+    },
+    "IN1-4": {
+      "hash": 8
+    },
+    "IN2-1": {
+      "hash": 8
+    },
+    "IN2-2": {
+      "pseudonym": 8
+    },
+    "IN2-3": {
+      "hash": 8
+    },
+    "MSH-10": {
+      "hash": 13
+    },
+    "MSH-11": {
+      "keep": 13
+    },
+    "MSH-12": {
+      "keep": 13
+    },
+    "MSH-3": {
+      "keep": 13
+    },
+    "MSH-4": {
+      "hash": 13
+    },
+    "MSH-5": {
+      "keep": 13
+    },
+    "MSH-6": {
+      "hash": 13
+    },
+    "MSH-7": {
+      "date_shift": 13
+    },
+    "MSH-9": {
+      "keep": 13
+    },
+    "NK1-1": {
+      "keep": 8
+    },
+    "NK1-2": {
+      "pseudonym": 8
+    },
+    "NK1-3": {
+      "keep": 8
+    },
+    "NK1-4": {
+      "pseudonym": 8
+    },
+    "NK1-4.5": {
+      "zip3": 8
+    },
+    "NK1-5": {
+      "pseudonym": 8
+    },
+    "NTE-1": {
+      "keep": 11
+    },
+    "NTE-3": {
+      "pseudonym": 11
+    },
+    "OBR-1": {
+      "keep": 2
+    },
+    "OBR-16": {
+      "pseudonym": 1
+    },
+    "OBR-2": {
+      "hash": 2
+    },
+    "OBR-3": {
+      "hash": 1
+    },
+    "OBR-4": {
+      "keep": 2
+    },
+    "OBR-7": {
+      "date_shift": 1
+    },
+    "OBX-1": {
+      "keep": 7
+    },
+    "OBX-11": {
+      "keep": 7
+    },
+    "OBX-2": {
+      "keep": 7
+    },
+    "OBX-3": {
+      "keep": 7
+    },
+    "OBX-5": {
+      "pseudonym": 3,
+      "remove": 2
+    },
+    "OBX-6": {
+      "keep": 2
+    },
+    "OBX-7": {
+      "keep": 2
+    },
+    "OBX-8": {
+      "keep": 2
+    },
+    "PD1-3": {
+      "hash": 8
+    },
+    "PD1-4": {
+      "pseudonym": 8
+    },
+    "PID-1": {
+      "keep": 13
+    },
+    "PID-11": {
+      "pseudonym": 13
+    },
+    "PID-11.5": {
+      "zip3": 13
+    },
+    "PID-13": {
+      "pseudonym": 26
+    },
+    "PID-18": {
+      "hash": 13
+    },
+    "PID-19": {
+      "pseudonym": 13
+    },
+    "PID-3": {
+      "pseudonym": 13
+    },
+    "PID-5": {
+      "pseudonym": 13
+    },
+    "PID-7": {
+      "age_cap": 13,
+      "date_shift": 13
+    },
+    "PID-8": {
+      "keep": 13
+    },
+    "PV1-1": {
+      "keep": 10
+    },
+    "PV1-17": {
+      "pseudonym": 8
+    },
+    "PV1-19": {
+      "hash": 10
+    },
+    "PV1-2": {
+      "keep": 10
+    },
+    "PV1-3": {
+      "redact": 8
+    },
+    "PV1-44": {
+      "date_shift": 8
+    },
+    "PV1-45": {
+      "date_shift": 2
+    },
+    "PV1-7": {
+      "pseudonym": 8
+    },
+    "PV1-8": {
+      "pseudonym": 8
+    },
+    "PV1-9": {
+      "pseudonym": 8
+    },
+    "PV2-3": {
+      "pseudonym": 8
+    },
+    "PV2-8": {
+      "date_shift": 8
+    },
+    "PV2-9": {
+      "date_shift": 8
+    },
+    "SCH-1": {
+      "hash": 1
+    },
+    "SCH-11": {
+      "keep": 1
+    },
+    "SCH-11.4": {
+      "date_shift": 1
+    },
+    "SCH-11.5": {
+      "date_shift": 1
+    },
+    "SCH-12": {
+      "pseudonym": 1
+    },
+    "SCH-16": {
+      "pseudonym": 1
+    },
+    "SCH-2": {
+      "hash": 1
+    },
+    "SCH-20": {
+      "pseudonym": 1
+    },
+    "SCH-6": {
+      "pseudonym": 1
+    },
+    "TXA-1": {
+      "keep": 1
+    },
+    "TXA-12": {
+      "hash": 1
+    },
+    "TXA-16": {
+      "hash": 1
+    },
+    "TXA-17": {
+      "keep": 1
+    },
+    "TXA-2": {
+      "keep": 1
+    },
+    "TXA-4": {
+      "date_shift": 1
+    },
+    "TXA-5": {
+      "pseudonym": 1
+    },
+    "TXA-9": {
+      "pseudonym": 1
+    },
+    "ZSY-1": {
+      "redact": 8
+    },
+    "ZSY-2": {
+      "redact": 8
+    }
+  },
+  "messages": 13,
+  "segments_seen": {
+    "AIL": 1,
+    "AIP": 1,
+    "BHS": 1,
+    "BTS": 1,
+    "EVN": 8,
+    "FHS": 1,
+    "FT1": 1,
+    "FTS": 1,
+    "GT1": 8,
+    "IN1": 8,
+    "IN2": 8,
+    "MSH": 13,
+    "NK1": 8,
+    "NTE": 11,
+    "OBR": 2,
+    "OBX": 7,
+    "PD1": 8,
+    "PID": 13,
+    "PV1": 10,
+    "PV2": 8,
+    "RGS": 1,
+    "SCH": 1,
+    "TXA": 1,
+    "ZSY": 8
+  },
+  "unknown_z_segments": {
+    "ZSY": 8
+  },
+  "version": 1,
+  "warnings": [
+    "Unknown segment ZSY: redact"
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "description": "Historical HHS guidance list of three-digit ZIP prefixes for geographic units with populations of 20,000 or fewer. This fixed list is not a current population determination or a compliance guarantee.",
+  "source": {
+    "title": "HHS Guidance Regarding Methods for De-identification of Protected Health Information in Accordance with the HIPAA Privacy Rule",
+    "url": "https://www.hhs.gov/hipaa/for-professionals/special-topics/de-identification/index.html",
+    "section": "Safe Harbor, ZIP code geographic subdivisions",
+    "basis": "Historical list in HHS guidance based on 2000 Census population data; restricted first three digits are replaced with 000.",
+    "regulation": "45 CFR 164.514(b)(2)(i)(B)",
+    "regulation_url": "https://www.ecfr.gov/current/title-45/subtitle-A/subchapter-C/part-164/subpart-E/section-164.514"
+  },
+  "restricted_prefixes": [
+    "036",
+    "059",
+    "063",
+    "102",
+    "203",
+    "556",
+    "692",
+    "790",
+    "821",
+    "823",
+    "830",
+    "831",
+    "878",
+    "879",
+    "884",
+    "890",
+    "893"
+  ]
+}
